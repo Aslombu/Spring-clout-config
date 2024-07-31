@@ -1,2 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/aslom
+    username: postgres
+    password: 1117
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
 app:
- text: helle bro
+  admin:
+    userName: "aslombu"
+    email: "aslombu1117@gmail.com"
+    phoneNumber: "941041117"
+    password: "Admin123!"
+    firstName: "Aslombek"
+    lastName: "Ochiliv"
+    address: "Samarqand viloyati"
+
+
+
+  jwt:
+    secretKey: "55d2430e17864da8db7h8dbd64a63777be5c1a7f06k92197c9b8113a3b552l60"
+    expireDays: 7
